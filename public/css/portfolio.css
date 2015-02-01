@@ -96,34 +96,61 @@ nav ul li a {
 nav ul li a:hover {
   color: #956bcc;
 }
-#intro, .full-container {
+.full-container {
+  background-color: #6e3caf;
+  height: 500px;
+  width: 100%;
   overflow: hidden;
   position: relative;
 }
-#intro .container, .full-container .container, #intro [class*="col-md-"], .full-container [class*="col-md-"], #intro .row, .full-container .row {
+.full-container .container, .full-container [class*="col-md-"], .full-container .row {
   height: 100%;
 }
-#intro h1, .full-container h1 {
+.full-container h1 {
+  color: #fff;
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.full-container {
-  background-color: #6e3caf;
-  height: 500px;
-  width: 100%;
+#home-page-splash-shuffle {
+  position: absolute;
+  top: -120px;
 }
-.full-container h1 {
-  color: #fff;
+#home-page-splash-shuffle p {
+  color: #4a2876;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 75px;
+  letter-spacing: -3px;
+  font-weight: bold;
+  position: absolute;
+  white-space: nowrap;
+  -webkit-transition: color 200ms ease-in;
+  -moz-transition: color 200ms ease-in;
+  -ms-transition: color 200ms ease-in;
+  -o-transition: color 200ms ease-in;
+  transition: color 200ms ease-in;
+}
+#home-page-splash-shuffle p.current {
+  -webkit-transition: color 370ms ease-in;
+  -moz-transition: color 370ms ease-in;
+  -ms-transition: color 370ms ease-in;
+  -o-transition: color 370ms ease-in;
+  transition: color 370ms ease-in;
+  color: white;
 }
 #intro {
-  height: 250px;
+  padding: 25px 0;
 }
 #intro h1 {
   font-size: 24px;
   line-height: 36px;
+  margin-top: 20px;
+}
+#intro blockquote {
+  border-right: 0;
+  font-size: 20px;
 }
 #projects {
   padding: 50px 0;

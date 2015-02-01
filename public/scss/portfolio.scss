@@ -152,7 +152,10 @@ nav {
 	}
 }
 
-#intro, .full-container {
+.full-container {
+	background-color: $brand-color;
+	height: 500px;
+	width: 100%;
 	overflow: hidden;
 	position: relative;
 	
@@ -161,26 +164,46 @@ nav {
 	}
 
 	h1 {
+		color: #fff;
 		@include vertical-align;
 	}
 }
 
-.full-container {
-	background-color: $brand-color;
-	height: 500px;
-	width: 100%;
+#home-page-splash-shuffle{
+	position: absolute;
+	top: -120px;
 
-	h1 {
-		color: #fff;
+	p {
+		color: darken($brand-color, 15%);
+		font-family: 'PT Sans', sans-serif;
+		font-size: 75px;
+		letter-spacing: -3px;
+		font-weight: bold;
+		position: absolute;
+		white-space: nowrap;
+		
+		@include transition(200ms, ease-in, color);
+
+		&.current {
+			@include transition(370ms, ease-in, color);
+			
+			color: white;
+		}
 	}
 }
 
 #intro {
-	height: 250px;
+	padding: 25px 0;
 
 	h1 {
 		font-size: 24px;
 		line-height: 36px;
+		margin-top: 20px;
+	}
+
+	blockquote {
+		border-right: 0;
+		font-size: 20px;
 	}
 }
 
