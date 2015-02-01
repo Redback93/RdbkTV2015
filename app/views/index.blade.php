@@ -4,10 +4,10 @@
 <div class="full-container">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 text-center">
+			<div class="col-md-4 col-xs-6 text-center">
 				<h1>This is a short list of some of the technologies I am familiar with.</h1>
 			</div>
-			<div class="col-md-4 col-md-offset-2">
+			<div class="col-md-4 col-xs-6 col-md-offset-2">
 				<div id="home-page-splash-shuffle">
 					<p>Python 3</p>
 					<p>Python 2</p>
@@ -32,7 +32,7 @@
 </div>
 <section id="intro" class="container">
 	<div class="row">
-		<div class="col-md-8 col-md-offset-2">
+		<div class="col-md-8 col-xs-md-12 col-md-offset-2">
 			<h1>Hi. I'm Redback, an Australian web and Windows developer who enjoys working on interesting, innovative and interactive projects.</h1>
 			<hr>
 			<h1><blockquote class="blockquote-reverse">&ldquo;If I have seen further it is by standing on the shoulders of giants.&rdquo;</span> <br/>&mdash; Isaac Newton</h1>
