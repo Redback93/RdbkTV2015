@@ -22,7 +22,7 @@
 					<li><a href="skype:Redback93Public"><span class="socicon socicon-skype"></span> Skype Me</a></li>
 					<li><a href="//reddit.com/u/Redback93"><span class="socicon socicon-reddit"></span> Reddit Me</a></li>
 					<li><a href="mailto:redback93@hotmail.com"><span class="socicon socicon-mail"></span> Email Me</a></li>
-					<li><a href="//github.com/Redback93"><span class="socicon socicon-github"></span> Git Me</a></li>
+					<li><a href="//github.com/RedbackThomson"><span class="socicon socicon-github"></span> Git Me</a></li>
 				</ul>
 			</div>
 		</div>
