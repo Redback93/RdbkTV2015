@@ -24,6 +24,11 @@ class Project
 
 return array (
 	"projects" => array(
+		//Market Monitor
+		"marketmonitor" => new Project("marketmonitor-bg.jpg", "marketmonitor-logo.png", "Market Monitor", "App Design and Development", "Commissioned",
+			"Commissioned by a stock broking technology firm, Market Monitor was designed as an iOS and Android app version of their existing desktop software. Market Monitor has its own database of stock market opening, closing and lunch times and notifies users of the markets' changes throughout the day and whether they are on holiday. It was created using Xamarin’s C# libraries and works for both platforms using native controls.",
+		"August 2015"),
+
 		//LoLShadow
 		"lolshadow" => new Project("lolshadow-bg.jpg", "lolshadow-logo.png", "LoLShadow", "Server and Website Implementation", "Redback",
 			"By request from the streamers at <a href=\"//twitch.tv\">Twitch</a>, LoLShadow was my cutting-edge implementation of my previous <a href=\"/lolalerter\">LoLAlerter</a>. LoLShadow aids in providing streamers with real-time information about their stream while inside a game of League of Legends. Implemented in Python, with a Laravel (PHP) website.", 
