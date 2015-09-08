@@ -1,9 +1,9 @@
 function shuffle(){
-
+	var items = $('#home-page-splash-shuffle > p').length;
+	var max = 90*(items+1) - 130;
 	$('#home-page-splash-shuffle > p').each(function(){
 		h = ($(this).offset().top + 130);
-		if( h > 1350 ){
-			console.log(h);
+		if( h > max ){
 			$(this).css	('top', 0 );
 			return;
 		}
@@ -21,7 +21,7 @@ function shuffle(){
 			easing: 'easeIn'
 		}, 500, '');
 		
-		if( h > 1350 ){
+		if( h > max ){
 			$(this).css	('top', 0 );
 		}
 	});

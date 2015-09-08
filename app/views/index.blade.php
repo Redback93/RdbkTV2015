@@ -10,20 +10,23 @@
 			<div class="col-md-4 col-xs-6 col-md-offset-2">
 				<div id="home-page-splash-shuffle">
 					<p>Python 3</p>
-					<p>Python 2</p>
 					<p>Java</p>
 					<p>PHP</p>
+					<p>Node</p>
 					<p>C#</p>
 					<p>REST</p>
 					<p>Illustrator</p>
 					<p>Apache</p>
 					<p>Windows</p>
+					<p>Ubuntu</p>
 					<p>Visual Studio</p>
 					<p>Git</p>
 					<p>SASS</p>
 					<p>JQuery</p>
 					<p>Photoshop</p>
 					<p>Laravel</p>
+					<p>Angular</p>
+					<p>Express</p>
 					<p>MySQL</p>
 				</div>
 			</div>
