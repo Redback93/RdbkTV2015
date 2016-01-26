@@ -24,6 +24,11 @@ class Project
 
 return array (
 	"projects" => array(
+		//OsuCelebrity
+		"osuceleb" => new Project("osuceleb-bg.jpg", "osuceleb-logo.png", "OsuCelebrity", "Application and Web Development", "Tillerino",
+			"Initially impossible, OsuCelebrity was possible after of months of feature requests and talk with osu! developers. OsuCelebrity allows osu! players to prove themselves in front of the critical Twitch audience. People are able to queue themselves up to play for a given amount of time when users vote to see more or to skip. Implemented in Java, with a JSON API backend and JS frontend.", 
+			"February 2015"),
+
 		//Market Monitor
 		"marketmonitor" => new Project("marketmonitor-bg.jpg", "marketmonitor-logo.png", "Market Monitor", "App Design and Development", "Commissioned",
 			"Commissioned by a stock broking technology firm, Market Monitor was designed as an iOS and Android app version of their existing desktop software. Market Monitor has its own database of stock market opening, closing and lunch times and notifies users of the markets' changes throughout the day and whether they are on holiday. It was created using Xamarin’s C# libraries and works for both platforms using native controls.",
