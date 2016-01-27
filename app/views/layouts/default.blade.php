@@ -11,7 +11,7 @@
 	<meta name="description" content="The hand-crafted, scrupulously designed and beatifully implemented portfolio of Redback. Young developer with experience in software, web and mobile development.">
 	<meta property="og:title" content="Redback">
 	<meta property="og:description" content="The hand-crafted, scrupulously designed and beatifully implemented portfolio of Redback. Young developer with experience in software, web and mobile development.">
-	<meta property="og:image:url" content="{{URL::to('/')}}/img/RBLogo.png">
+	<meta property="og:image" content="{{URL::to('/')}}/img/RBLogo.png">
 </head>
 <body>
 	<nav>
