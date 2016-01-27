@@ -31,6 +31,12 @@
 					<span class="fact-head">DATE</span>
 					<p>{{{$project->date}}}</p>
 				</div>
+				@if ($project->source !== "")
+				<div class="fact">
+					<span class="fact-head">SOURCE</span>
+					<p><a target="_new" href="{{{$project->source}}}">Repository</a></p>
+				</div>
+				@endif
 			</div>
 		</div>
 	</div>
