@@ -1,12 +1,17 @@
 
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
 <head>
 	<meta charset="UTF-8">
 	<title>Redback</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+
+	<meta name="description" content="The hand-crafted, scrupulously designed and beatifully implemented portfolio of Redback. Young developer with experience in software, web and mobile development.">
+	<meta property="og:title" content="Redback">
+	<meta property="og:description" content="The hand-crafted, scrupulously designed and beatifully implemented portfolio of Redback. Young developer with experience in software, web and mobile development.">
+	<meta property="og:image:url" content="{{URL::to('/')}}/img/RBLogo.png">
 </head>
 <body>
 	<nav>
